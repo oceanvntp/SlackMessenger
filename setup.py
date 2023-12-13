@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'requests',
-        'yaml'
+        'PyYAML'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
