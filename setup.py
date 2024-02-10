@@ -6,7 +6,7 @@ setup(
     author='Hiromi Matsumoto',
     author_email='ocean.vntp@gmail.com',
     description='python package for sending slack messages',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/oceanvntp/SlackMessenger.git',
     packages=find_packages(),
